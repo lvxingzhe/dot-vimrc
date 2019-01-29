@@ -232,6 +232,17 @@ Clone in Mac
 4. Install bundles. Launch vim(ignore the errors and they will disappear after installing needed plugins)and run:
 
         :BundleInstall
+        
+5. install Ag for Ack plugin
+
+if your system have no Ag command,to install it.
+      # OSX
+      brew install the_silver_searcher
+      # Archlinux
+      pacman -S the_silver_searcher
+      # Ubuntu
+      apt-get install silversearcher-ag
+
 
 Thst's it!
 

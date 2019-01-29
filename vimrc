@@ -204,6 +204,7 @@ nmap <F3> :GundoToggle<cr>
 nmap <F4> :IndentGuidesToggle<cr>
 nmap  <D-/> :
 nnoremap <leader>a :Ack
+let g:ackprg = 'ag --nogroup --nocolor --column'
 nnoremap <leader>v V`]
 
 "------------------

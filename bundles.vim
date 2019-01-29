@@ -85,6 +85,11 @@ Bundle 'tpope/vim-markdown'
 "------- Go ----------
 Bundle 'fatih/vim-go'
 
+" c/c++
+Bundle octol/vim-cpp-enhanced-highlight
+" html
+Bundle http://www.fleiner.com/vim/syntax/html.vim
+
 "------- FPs ------
 Bundle 'kien/rainbow_parentheses.vim'
 " Bundle 'wlangstroth/vim-racket'

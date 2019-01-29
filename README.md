@@ -235,7 +235,7 @@ Clone in Mac
         
 5. install Ag for Ack plugin
 
-   if you system have “ack” command，ignore this step.
+   if you system have “ag” command，ignore this step.
    
    if your system have no Ag command,to install it.
 
@@ -246,12 +246,7 @@ Clone in Mac
          # Ubuntu
          apt-get install silversearcher-ag
         
-   add  the command to ".vimrc"
-         
-         let g:ackprg = 'ag --nogroup --nocolor --column'
-
-
-
+        
 Thst's it!
 
 For installation on Windows, please refer to this post: http://blog.yoxyue.com/post/gvim-on-win7 (Thanks to [yoxyue](https://github.com/yoxyue))

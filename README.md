@@ -236,12 +236,13 @@ Clone in Mac
 5. install Ag for Ack plugin
 
 if your system have no Ag command,to install it.
-      # OSX
-      brew install the_silver_searcher
-      # Archlinux
-      pacman -S the_silver_searcher
-      # Ubuntu
-      apt-get install silversearcher-ag
+
+         # OSX
+         brew install the_silver_searcher
+         # Archlinux
+         pacman -S the_silver_searcher
+         # Ubuntu
+         apt-get install silversearcher-ag
 
 
 Thst's it!

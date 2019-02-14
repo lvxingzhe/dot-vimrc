@@ -13,8 +13,9 @@ syntax on
 " Vim UI
 "--------
 " color scheme
+color Monokai_Gavin
 set background=dark
-color solarized
+" color solarized
 
 " highlight current line
 au WinLeave * set nocursorline nocursorcolumn
@@ -53,7 +54,7 @@ set smartindent     " indent when
 set tabstop=4       " tab width
 set softtabstop=4   " backspace
 set shiftwidth=4    " indent width
-" set textwidth=79
+set textwidth=80
 " set smarttab
 set expandtab       " expand tab to space
 
@@ -267,3 +268,7 @@ if has("gui_running")
     map <D-9> 9gt
     map <D-0> :tablast<CR>
 endif
+" set ctags and cscope
+set cscopequickfix=s-,c-,d-,i-,t-,e-
+"set tags=/your_path/tags
+"cs add /your_path/cscope.out  /your_path 

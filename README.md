@@ -1,4 +1,4 @@
-Developer Vim config
+Maple's Vim config
 ==================
 
 I use `vundle` to manage my plugins, which makes my `.vim` directory clean and tidy. If you are new to vim, the following two posts
@@ -216,37 +216,23 @@ Clone in Mac
 ## Installation
 
 1. Backup your old vim configuration files:
-        
-        mv ~/.vim    ~/.vim.orig
-        mv ~/.vimrc  ~/.vimrc.orig
+
+        mv ~/.vim ~/.vim.orig
+        mv ~/.vimrc ~/.vimrc.orig
 
 2. Clone and install this repo:
 
-        git clone https://github.com/lvxingzhe/dot-vimrc  ~/.vim
+        git clone git://github.com/humiaozuzu/dot-vimrc.git ~/.vim
         ln -s ~/.vim/vimrc ~/.vimrc
 
 3. Setup `Vundle`:
 
-        git clone http://github.com/VundleVim/Vundle.Vim  ~/.vim/bundle/vundle
+        git clone https://github.com/gmarik/vundle.git ~/.vim/bundle/vundle
 
 4. Install bundles. Launch vim(ignore the errors and they will disappear after installing needed plugins)and run:
 
         :BundleInstall
-        
-5. install Ag for Ack plugin
 
-   if you system have “ag” command，ignore this step.
-   
-   if your system have no Ag command,to install it.
-
-         # OSX
-         brew install the_silver_searcher
-         # Archlinux
-         pacman -S the_silver_searcher
-         # Ubuntu
-         apt-get install silversearcher-ag
-        
-        
 Thst's it!
 
 For installation on Windows, please refer to this post: http://blog.yoxyue.com/post/gvim-on-win7 (Thanks to [yoxyue](https://github.com/yoxyue))

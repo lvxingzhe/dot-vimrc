@@ -25,7 +25,7 @@ Bundle 'tomtom/tlib_vim'
 "-----------------
 " Fast navigation
 "-----------------
-Bundle 'edsono/vim-matchit'
+" Bundle 'edsono/vim-matchit'
 Bundle 'Lokaltog/vim-easymotion'
 
 "--------------
@@ -76,7 +76,8 @@ Bundle 'nono/jquery.vim'
 " Bundle 'nono/vim-handlebars'
 
 "------- markup language -------
-Bundle 'tpope/vim-markdown'
+" Bundle 'tpope/vim-markdown'
+Bundle 'plasticboy/vim-markdown'
 " Bundle 'timcharper/textile.vim'
 
 "------- Ruby --------
@@ -84,11 +85,6 @@ Bundle 'tpope/vim-markdown'
 
 "------- Go ----------
 Bundle 'fatih/vim-go'
-
-" c/c++
-Bundle octol/vim-cpp-enhanced-highlight
-" html
-Bundle http://www.fleiner.com/vim/syntax/html.vim
 
 "------- FPs ------
 Bundle 'kien/rainbow_parentheses.vim'

@@ -95,7 +95,7 @@ sudo apt-get install vim-gtk               # Ubuntu
 * [nerdtree](http://github.com/scrooloose/nerdtree) - A tree explorer plugin for navigating the filesystem.
 * [tabbar](http://github.com/humiaozuzu/TabBar) -  Add tab bar and quickt tab switch with alt+1~9.
 * [tagbar](http://github.com/majutsushi/tagbar) - Displays the tags of the current file in a sidebar.
-* [ack-vim](http://github.com/mileszs/ack.vim) - Front for the Perl module App::Ack.You need to install [ack](https://beyondgrep.com/install/).
+* [ack-vim](http://github.com/mileszs/ack.vim) - Front for the Perl module App::Ack.You need to install [ack](https://beyondgrep.com/install/) and ag(the-silver-searcher).
 * [ctrlp](https://github.com/kien/ctrlp.vim) - Fuzzy file, buffer, mru and tag finder.
 * [powerline](https://github.com/Lokaltog/vim-powerline) - The ultimate vim statusline utility.
 * [fugitive](https://github.com/tpope/vim-fugitive/) - a Git wrapper so awesome, it should be illegal.
